@@ -1,0 +1,98 @@
+#String vaiables
+myself: choudhury Iqbal
+fruit: "apple"
+job: 'swe'
+
+
+bio: |
+hey my name is iqbal 
+I am a very nice dude
+
+#write a single line in multiple line
+message: >
+this will 
+all be 
+one single line
+
+#same ias
+message: this will all be in one single line
+
+
+#numbers
+
+number: 5473
+marks: 98.76
+booleanValue: No #n,N,False,false, FALSE
+#same for true -> yes, y,Y
+#specify the type 
+zero: !!int 0
+positiveNum: !!int 45
+negativeNum: !!int -45
+binaryNum: !!int 0b1101
+octaNum: !!int 06333
+hexa: !!int 0X45
+commaValue: !!int +540,000
+
+#floating point numbers
+simpleNumber: !!float 56.89
+infinityNumber: !!float .inf
+not a number: .nan
+
+#bootlena 
+bool: !!boolean true
+
+
+#null
+surname: !!null Null
+
+#dates and time
+
+
+student: !!seq
+ - marks
+ - name
+ - roll_no
+
+cities: [new delthi, mumbai]
+
+#some of the keys of the seq will be empty
+
+#key value pairs are called maps 
+#nested mappings: map within in map
+name: choudhury Iqbalr
+role: 
+  age: 78
+  job: student
+  role: { age: 78, job: student}
+
+
+#pair exmapel 
+- job: student
+- job: teacher
+
+#uniques values will be handle by set
+
+names: !!set
+? iqbal
+? rahul
+? sofi
+
+#dictionary !! omap
+people 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
