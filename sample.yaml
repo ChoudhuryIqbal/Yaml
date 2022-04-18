@@ -1,0 +1,15 @@
+"apple": "I am a red fruit"
+1: "this is my roll number"
+
+---
+cities:
+ - new delhi
+ - mumbai
+ - calcutta
+...
+
+
+cities: [new delhi, mumbai]
+----
+{mango: "yello fruit",age:56}
+...
